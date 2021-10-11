@@ -1,0 +1,142 @@
+body {
+  background-color: darkgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container1 {
+  background-color: white;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right:150px;
+  background: url(image.png);
+}
+
+.container2 {
+  background-color: white;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.container3 {
+  background-color: white;
+  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.column_header1 {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.column_header2 {
+  float: left;
+  width: 60%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  color: #fff;
+}
+
+.column_left {
+  float: left;
+  width: 35%;
+  padding: 15px;
+}
+
+.column_right {
+  float: left;
+  width: 55%;
+  padding: 30px;
+  background-color: whitesmoke;
+}
+
+.column_left_icons {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.column_right_descriptions {
+  float: right;
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2
+{
+  font-size: 16px;
+}
+
+h3
+{
+  font-family: Arial;
+  font-size: 15px;
+  color: dimgray;
+}
+
+h4
+{
+  font-family: Arial;
+  font-size: 18px;
+  color: #7C8587;
+}
+
+h5
+{
+  font-family: Consolas;
+  font-size: 13px;
+  color: #7C8587;
+}
+
+
+p
+{
+  font-family: Arial;
+  font-size: 14px;
+  color: #7C8587;
+}
+
+ul
+{
+  font-family: Arial;
+  font-size: 15px;
+  color: #7C8587;
+}
+
+
+hr
+{
+  position: relative;
+  height: 5px;
+  width: 20%;
+  background: #7C8587;
+}
+
+i
+{
+  color: dimgray;
+}
+
